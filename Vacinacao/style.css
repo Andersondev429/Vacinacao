@@ -1,0 +1,267 @@
+html{
+    background-image: url("https://uploads.metropoles.com/wp-content/uploads/2021/01/05160652/vacina-covid-2.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+}
+
+.logo-dany{
+    width: 300px;
+}
+
+.title-calendar{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content{
+    margin-top: 5%;
+}
+
+.itens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    justify-items: center;
+}
+
+.item{
+    text-align: center;
+    color: black;
+    border: 2px solid rgb(43, 58, 196);
+    background-image: linear-gradient(to right, #edf2fb , #abc4ff);
+    border-radius: 50%;
+    max-width: 40%;
+    min-width: 40%;
+    padding: 15px 120px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.item h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.link-item{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.item:hover{
+    background-image: linear-gradient(to left, #edf2fb , #abc4ff);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.item h1:hover{
+    font-size: 35px;
+    font-weight: 700;
+    transition: 0.6s;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.item17{
+    padding: 15px 121px;
+}
+
+.item18{
+    padding: 15px 121px;
+}
+
+
+/*Nascer CSS*/
+
+.vacinas{
+    margin-top:40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom:10px;
+}
+
+
+
+
+
+
+/*media querys*/
+@media (max-width: 1220px) {
+    .itens{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header{
+        gap: 10%;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .header{
+        gap: 7%;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .header{
+        gap: 3%;
+    }
+    
+}
+
+@media (max-width: 923px) {
+    .header{
+        gap: 1%;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .title-calendar{
+        font-size: 35px;
+    }
+    
+}
+
+@media (max-width: 830px) {
+    .item{
+        padding: 15px 80px;
+    }
+
+    .title-calendar{
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 752px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-dany{
+        width: 400px;
+    }
+
+    .title-calendar{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 595px) {
+    .itens{
+        grid-template-columns: 1fr;
+    }    
+}
+
+@media (max-width: 580px) {
+    .vacinas{
+        margin-top:40px;
+        margin-right: 30px;
+        margin-left: 30px;;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .logo-dany{
+        width: 400px;
+    }
+
+    .title-calendar{
+        font-size: 25px;
+    }
+
+    .vacinas{
+        margin-right: 20px;
+        margin-left: 20px;;
+    }
+    
+    
+}
+
+@media (max-width: 412px) {
+    .logo-dany{
+        width: 350px;
+    }
+
+    .title-calendar{
+        font-size: 25px;
+    }
+
+    .item{
+        padding: 15px 100px;
+    }
+    
+}
+
+@media (max-width: 370px) {
+    .title-calendar{
+        font-size: 22px;
+    }
+
+    .item{
+        padding: 15px 80px;
+    }
+
+    .vacinas{
+        margin-right: 7px;
+        margin-left: 7px;;
+    }
+    
+    
+}
+
+@media (max-width: 336px) {
+    .logo-dany{
+        width: 300px;
+    }
+
+    .title-calendar{
+        font-size: 20px;
+    }
+
+    .item{
+        padding: 15px 80px;
+    }
+
+    .link-item{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 302px) {
+    .logo-dany{
+        width: 275px;
+    }
+
+    .title-calendar{
+        font-size: 15px;
+    }
+
+    .item{
+        padding: 15px 60px;
+    }
+
+    .link-item{
+        font-size: 20px;
+    }
+}
+
